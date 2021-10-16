@@ -1,0 +1,25 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  height: 830px;
+
+  .welcome-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: lightgrey;
+  }
+
+  .chat-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    padding: 20px;
+    overflow: auto;
+
+    .chat-input {
+      position: fixed;
+    }
+  }
+}
